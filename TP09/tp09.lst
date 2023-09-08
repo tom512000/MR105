@@ -1,0 +1,29 @@
+SP2-0158: option SET inconnue "COLUMN"
+
+Element                        LIBCATG                                          
+------------------------------ ----------                                       
+BABA AU RHUM                   DESSERT                                          
+BANANE                         DESSERT                                          
+POTAGE CHINOIS                 ENTREE                                           
+AVOCAT AU CRABE                ENTREE                                           
+ROULEAUX DE PRINTEMPS          ENTREE                                           
+BROCHETTE DE POISSON           PLAT                                             
+CANARD LAQUE                   PLAT                                             
+CARPACCIO DE SAUMON            PLAT                                             
+
+8 lignes selectionnees.
+
+
+Element                                                                         
+------------------------------                                                  
+BROCHETTE DE POISSON                                                            
+BANANE                                                                          
+AVOCAT AU CRABE                                                                 
+CARPACCIO DE SAUMON                                                             
+BABA AU RHUM                                                                    
+ROULEAUX DE PRINTEMPS                                                           
+CANARD LAQUE                                                                    
+POTAGE CHINOIS                                                                  
+
+8 lignes selectionnees.
+

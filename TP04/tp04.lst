@@ -1,0 +1,135 @@
+SQL> 
+SQL> -- Commande SQL*PLUS
+SQL> COL libEltMenu FORMAT A30 HEADING "Element Menu"
+SQL> 
+SQL> -- Affecter à la variable de substitution
+SQL> ACCEPT nbcal
+5
+SQL> 
+SQL> -- Cette requête permet d'afficher la
+SQL> SELECT libEltMenu
+  2  FROM REPAS.elementMenu
+  3  WHERE nbCalories > &nbcal
+  4  ORDER BY 1;
+ancien   3 : WHERE nbCalories > &nbcal
+nouveau   3 : WHERE nbCalories > 5
+
+Element Menu                                                                                                                                                                                            
+------------------------------                                                                                                                                                                          
+AVOCAT AU CRABE                                                                                                                                                                                         
+AVOCAT CREVETTE                                                                                                                                                                                         
+BABA AU RHUM                                                                                                                                                                                            
+BANANE                                                                                                                                                                                                  
+BATAVIA                                                                                                                                                                                                 
+BETTERAVE                                                                                                                                                                                               
+BIERE 33CL                                                                                                                                                                                              
+BLANQUETTE DE VEAU                                                                                                                                                                                      
+BOEUF AU CURRY                                                                                                                                                                                          
+BOEUF BIFSTEACK                                                                                                                                                                                         
+BOEUF ENTRECOTE                                                                                                                                                                                         
+BOEUF STEACK HACHE 10%MG                                                                                                                                                                                
+BOEUF STEACK HACHE 20%MG                                                                                                                                                                                
+BOEUF STEACK HACHE 5%MG                                                                                                                                                                                 
+BOEUF STEACK TARTARE                                                                                                                                                                                    
+BOURSIN                                                                                                                                                                                                 
+BRIE                                                                                                                                                                                                    
+
+Element Menu                                                                                                                                                                                            
+------------------------------                                                                                                                                                                          
+BROCHETTE DE POISSON                                                                                                                                                                                    
+BROCOLIS                                                                                                                                                                                                
+CAMEMBERT 40%MG                                                                                                                                                                                         
+CAMEMBERT 45%MG                                                                                                                                                                                         
+CAMEMBERT 50%MG                                                                                                                                                                                         
+CAMEMBERT 60%MG                                                                                                                                                                                         
+CANARD LAQUE                                                                                                                                                                                            
+CAROTTES RAPEES                                                                                                                                                                                         
+CARPACCIO DE SAUMON                                                                                                                                                                                     
+CELERI REMOULADE                                                                                                                                                                                        
+CHAMPIGNONS A LA GRECQUE                                                                                                                                                                                
+CHARLOTTE AUX FRAISES                                                                                                                                                                                   
+CHICOREE                                                                                                                                                                                                
+CHILI CON CARNE                                                                                                                                                                                         
+COCA COLA 33CL                                                                                                                                                                                          
+COMPOTE POMME                                                                                                                                                                                           
+CONCOMBRE                                                                                                                                                                                               
+
+Element Menu                                                                                                                                                                                            
+------------------------------                                                                                                                                                                          
+COQ AU VIN                                                                                                                                                                                              
+COURGETTES                                                                                                                                                                                              
+COUSCOUS                                                                                                                                                                                                
+CREME CARAMEL                                                                                                                                                                                           
+CREME CHOCOLAT                                                                                                                                                                                          
+CREME VANILLE                                                                                                                                                                                           
+CRESSON                                                                                                                                                                                                 
+EMMENTAL                                                                                                                                                                                                
+EPINARDS                                                                                                                                                                                                
+ESCALOPE DE DINDE                                                                                                                                                                                       
+FILET DE MERLAN                                                                                                                                                                                         
+FLAGEOLETS                                                                                                                                                                                              
+FRISEE                                                                                                                                                                                                  
+FRITES                                                                                                                                                                                                  
+FROMAGE BLANC AUX FRUITS                                                                                                                                                                                
+FROMAGE BLANC 0%MG                                                                                                                                                                                      
+FROMAGE BLANC 10%MG                                                                                                                                                                                     
+
+Element Menu                                                                                                                                                                                            
+------------------------------                                                                                                                                                                          
+FROMAGE BLANC 20%MG                                                                                                                                                                                     
+FROMAGE BLANC 40%MG                                                                                                                                                                                     
+GATEAU CHOCOLAT                                                                                                                                                                                         
+GRATIN DAUPHINOIS                                                                                                                                                                                       
+HARICOTS VERTS                                                                                                                                                                                          
+ILES FLOTTANTES                                                                                                                                                                                         
+JUS DE FRUITS ORANGE 33CL                                                                                                                                                                               
+LA CHARCUTIER                                                                                                                                                                                           
+LAITUE                                                                                                                                                                                                  
+LE CRUDITES                                                                                                                                                                                             
+LE FROMAGER                                                                                                                                                                                             
+LE JAMBON BEURRE                                                                                                                                                                                        
+LE TRADITIONNEL                                                                                                                                                                                         
+MACHE                                                                                                                                                                                                   
+MAROILLES                                                                                                                                                                                               
+MORTADELLE                                                                                                                                                                                              
+OEUF EN GELEE AU JAMBON                                                                                                                                                                                 
+
+Element Menu                                                                                                                                                                                            
+------------------------------                                                                                                                                                                          
+OMELETTE NORVEGIENNE                                                                                                                                                                                    
+PAELLA                                                                                                                                                                                                  
+PANACHE 33CL                                                                                                                                                                                            
+PATES AUX OEUFS                                                                                                                                                                                         
+PETITS POIS CAROTTES                                                                                                                                                                                    
+POISSONS PANES                                                                                                                                                                                          
+POMME                                                                                                                                                                                                   
+POMMES DE TERRE SAUTEES                                                                                                                                                                                 
+POTAGE CHINOIS                                                                                                                                                                                          
+PROFITEROLLES                                                                                                                                                                                           
+PUREE POMMES DE TERRE                                                                                                                                                                                   
+RAISIN BLANC                                                                                                                                                                                            
+RILLETTES                                                                                                                                                                                               
+RIZ                                                                                                                                                                                                     
+ROULEAUX DE PRINTEMPS                                                                                                                                                                                   
+SAINT-NECTAIRE                                                                                                                                                                                          
+SALADE COMPOSEE                                                                                                                                                                                         
+
+Element Menu                                                                                                                                                                                            
+------------------------------                                                                                                                                                                          
+SALADE ENDIVES                                                                                                                                                                                          
+SALADE FRUITS                                                                                                                                                                                           
+SAUCISSE STRASBOURG                                                                                                                                                                                     
+SEMOULE                                                                                                                                                                                                 
+TABOULE                                                                                                                                                                                                 
+TARTE AUX POMMES                                                                                                                                                                                        
+TOMATES FARCIES                                                                                                                                                                                         
+TOMME                                                                                                                                                                                                   
+VACHE QUI RIT                                                                                                                                                                                           
+VIN ROSE 25CL                                                                                                                                                                                           
+VIN ROUGE 25CL                                                                                                                                                                                          
+
+96 lignes selectionnees.
+
+SQL> 
+SQL> -- Fermeture du fichier de trace
+SQL> SPOOL OFF

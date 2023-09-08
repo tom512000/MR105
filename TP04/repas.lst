@@ -1,0 +1,91 @@
+
+Numéro de Menu                Libellé de Menu               Type de Menu                                                                                                                              
+------------------------------ ------------------------------ ------------------------------                                                                                                            
+M01                            MENU SHANGAI                   5                                                                                                                                         
+M02                            MENU PEKIN                     5                                                                                                                                         
+M03                            MENU HAWAI                     5                                                                                                                                         
+M04                            MENU BOURGOGNE                 4                                                                                                                                         
+M05                            MENU PAS CHER                  2                                                                                                                                         
+M06                            MENU ECO                       2                                                                                                                                         
+M07                            MENU BLANQUETTE                4                                                                                                                                         
+M08                            MENU MER                       3                                                                                                                                         
+M09                            MENU TERROIR                   4                                                                                                                                         
+M10                            MENU VERT                      1                                                                                                                                         
+M11                            MENU BLEU                      1                                                                                                                                         
+M12                            MENU ROUGE                     1                                                                                                                                         
+M13                            MENU JAUNE                     1                                                                                                                                         
+M14                            MENU ORANGE                    1                                                                                                                                         
+M15                            MENU BLANC                     1                                                                                                                                         
+
+15 lignes selectionnees.
+
+
+Ville client         Nom Client                                                                                                                                                                         
+-------------------- --------------------------------------------------                                                                                                                                 
+AULNAY L'AITRE       COMMUNE AULNAY L'AITRE                                                                                                                                                             
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+AY                   COMMUNE AY                                                                                                                                                                         
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+BONCOURT             COMMUNE BONCOURT                                                                                                                                                                   
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+CHALONS EN CHAMPAGNE Conseil General                                                                                                                                                                    
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+CHEZY SUR MARNE      Maison de Retraite Les Portes de Champagne                                                                                                                                         
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+FERE EN TARDENOIS    Residence Paul Claudel                                                                                                                                                             
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+LIESSE-NOTRE-DAME    COMMUNE LIESSE-NOTRE-DAME                                                                                                                                                          
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+REIMS                Reims Metropole-Mission Tramway                                                                                                                                                    
+                     CAP Informatique                                                                                                                                                                   
+                     Reims Metropole-Hotel de la Communaute                                                                                                                                             
+                     Reims Metropole-Gestion des dechets urbains                                                                                                                                        
+                     GFI Informatique                                                                                                                                                                   
+                     CE FORBO SARLINO                                                                                                                                                                   
+                     Maison de la Region                                                                                                                                                                
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      7                                                                                                                                 
+RETHEL               CENTRE COMMUNAL                                                                                                                                                                    
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+SERZY ET PRIN        HAMEAU DU PRIN                                                                                                                                                                     
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      1                                                                                                                                 
+SEZANNE              Communaute de communes des coteaux sezannais                                                                                                                                       
+                     Societe des Transports Rosier                                                                                                                                                      
+                     COMMUNE SEZANNE                                                                                                                                                                    
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      3                                                                                                                                 
+VAUCIENNES           Communaute de Communes des Deux Vallees                                                                                                                                            
+                     COMMUNE VAUCIENNES                                                                                                                                                                 
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      2                                                                                                                                 
+                     --------------------------------------------------                                                                                                                                 
+Nombre de client                                                     21                                                                                                                                 
+
+21 lignes selectionnees.
+
+
+Ville client         Nom Client                                                                                                                                                                         
+-------------------- --------------------------------------------------                                                                                                                                 
+REIMS                CE FORBO SARLINO                                                                                                                                                                   
+                     GFI Informatique                                                                                                                                                                   
+                     Maison de la Region                                                                                                                                                                
+                     CAP Informatique                                                                                                                                                                   
+                     Reims Metropole-Hotel de la Communaute                                                                                                                                             
+                     Reims Metropole-Gestion des dechets urbains                                                                                                                                        
+                     Reims Metropole-Mission Tramway                                                                                                                                                    
+******************** --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      7                                                                                                                                 
+                     --------------------------------------------------                                                                                                                                 
+Nombre de client                                                      7                                                                                                                                 
+
+7 lignes selectionnees.
+

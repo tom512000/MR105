@@ -1,0 +1,51 @@
+SQL> 
+SQL> -- Description de la table CLIENT	du schema REPAS
+SQL> DESC REPAS.CLIENT
+ Nom                                                                                                               NULL ?   Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ NUMCLT                                                                                                            NOT NULL CHAR(3)
+ NOMCLT                                                                                                                     VARCHAR2(50)
+ ADRCLT                                                                                                                     VARCHAR2(30)
+ ADRLIV                                                                                                                     VARCHAR2(30)
+ CPCLT                                                                                                                      CHAR(5)
+ VILLECLT                                                                                                                   VARCHAR2(20)
+ TELCLT                                                                                                                     CHAR(15)
+ TYPECLT                                                                                                                    CHAR(2)
+ TAUXREMISE                                                                                                                 FLOAT(126)
+ DATECLT                                                                                                                    DATE
+ NUMPARRAIN                                                                                                                 CHAR(3)
+
+SQL> 
+SQL> -- Formatage des colonnes
+SQL> COL NOMCLT      FORMAT A35      HEADING CLIENT
+SQL> COL VILLECLT    FORMAT A20      HEADING VILLE
+SQL> COL ADRCLT      FORMAT A25      HEADING ADRESSE
+SQL> COL CPCLT	     FORMAT A11      HEADING "CODE POSTAL"
+SQL> COL NUMCLT      FORMAT A15      HEADING "NUMERO CLIENT"
+SQL> COL TELCLT      FORMAT A10      HEADING "TELEPHONE"
+SQL> 
+SQL> /* ****************************** */
+SQL> -- Affichage des clients de REIMS
+SQL> /* ****************************** */
+SQL> -- Le symbole * permet d'extraire toutes les colonnes de la table.
+SQL> -- Il n'est utilisé que pour des tests ou démonstration mais ni en développemnt ni en production
+SQL> 
+SQL> SELECT *
+  2  FROM REPAS.CLIENT
+  3  WHERE villeclt = 'REIMS';
+
+NUMERO CLIENT   CLIENT                              ADRESSE                   ADRLIV                         CODE POSTAL VILLE                TELEPHONE  TY TAUXREMISE DATECLT  NUM                     
+--------------- ----------------------------------- ------------------------- ------------------------------ ----------- -------------------- ---------- -- ---------- -------- ---                     
+C05             CE FORBO SARLINO                    63 r Gosset               63 r Gosset                    51100       REIMS                03 26 77 3 01         15 16/10/98                         
+C06             GFI Informatique                    23 r Jard                 23 r Jard                      51100       REIMS                03 26 86 5 01          5 16/09/05                         
+C07             Maison de la Region                 5 r Jericho               5 r Jericho                    51100       REIMS                03 26 70 3 03         15 15/12/06                         
+C08             Reims Metropole-Mission Tramway     3 r du Marc                                              51100       REIMS                03 26 05 3 03         10 01/02/08 C07                     
+C09             Reims Metropole-Hotel de la Communa 3 r Eugene Desteuque                                     51100       REIMS                03 26 35 3 03         10 15/03/08 C08                     
+C10             Reims Metropole-Gestion des dechets 3 r Arthur Deces                                         51100       REIMS                03 26 02 9 03         10 15/06/07 C07                     
+C15             CAP Informatique                    15 r Nanteuil                                            51100       REIMS                03 26 47 8 01         25 01/08/06 C06                     
+
+7 lignes selectionnees.
+
+SQL> 
+SQL> -- Fermeture du fichier de trace
+SQL> SPOOL OFF
